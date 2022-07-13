@@ -1,0 +1,78 @@
+.headline {
+    display: flex;
+}
+
+.headline_p {
+    line-height: 100%;
+    font-size: 80px;
+    color: #002D5C;
+    padding-top: 60px;
+}
+
+.under_headline_p {
+    padding-top: 142px;
+    padding-left: 160px;
+    color: #848484;
+}
+
+.kak_rabotaet_img {
+    padding-top: 60px;
+}
+
+.o_dostavke, .vozvrat_p {
+    color: #002D5C;
+    font-size: 38px;
+    font-weight: 500;
+    padding-top: 60px;
+}
+
+.under_o_dostavke, .under_vozvrat_p {
+    padding-top: 40px;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+p {
+    color: #848484;
+}
+
+.appeals {
+    padding-top: 60px;
+}
+
+.email_p {
+    color: #FF5722;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+    .headline {
+        display: block;
+    }
+    .under_headline_p {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .kak_rabotaet_img {
+        width: 540px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+    .headline {
+        display: block;
+    }
+    .under_headline_p {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .kak_rabotaet_img {
+        width: 720px;
+    }
+}

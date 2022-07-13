@@ -1,0 +1,32 @@
+.svyazatsya {
+    display: flex;
+}
+
+.svyaz_p {
+    color: #002D5C;
+    font-size: 80px;
+    font-weight: 200;
+    line-height: 100%;
+    padding-top: 60px;
+}
+
+.under_svyaz_p {
+    padding-top: 165px;
+    padding-left: 215px;
+    color: #848484;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+    .svyazatsya {
+        display: block;
+    }
+    .under_svyaz_p {
+        padding-top: 30px;
+        padding-left: 0px;
+}
+
+}
