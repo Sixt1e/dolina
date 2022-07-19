@@ -27,16 +27,39 @@
     .under_basket_p {
         padding-top: 30px;
         padding-left: 0px;
-}
+    }
 
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
     .container {
-        width: 960px;
+        width: 540px;
+    }
+    .basket {
+        padding-left: 10px;
+    }
+    .order_btn {
+        margin-left: 80px;
+    }
+    .phone_header {
+        padding-left: 40px;
+        white-space: nowrap;
+
+    }
+    .order_btn {
+    float: right;
+    margin-left: auto;
+    }
+    .basket_div {
+    display: block;
+    }
+    .under_basket_p {
+    padding-left: 0px;
+    padding-top: 30px;
+    
     }
 
-    .basket {
-        padding-left: 350px;
-    }
+
 }
+
+

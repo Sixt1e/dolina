@@ -21,6 +21,25 @@
     .container {
         width: 720px;
     }
+    .logotype {
+        width: 100px;
+        height: 40px;
+    }
+    .card_3 {
+        display: none;
+    }
+    .nashe_p {
+        width: 385px;
+    }
+    .menu {
+        padding-left: 10px;
+    }
+    .phone_header {
+        padding-left: 200px;
+    }
+    .katalog_btn {
+        margin-left: 400px;
+    }
     .akcii {
         display: block;
     }
@@ -28,4 +47,44 @@
         padding-top: 30px;
         padding-left: 0px;
     }
+    .basket {
+        padding-left: 140px;
+    }
+    .order_btn {
+        padding: 5px 20px 5px 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+    .headline {
+        display: block;
+    }
+    .under_headline_p {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .line {
+        width: 100%;
+    }
+    .card_3 {
+        display: none;
+    }
+
+    .circle_img {
+        display: none;
+    }
+    .phone_header {
+        padding-left: 40px;
+    }
+    .order_btn {
+        padding: 5px 20px 5px 20px;
+    }
+    .basket {
+        padding-left: 0px;
+    }
+
+
 }

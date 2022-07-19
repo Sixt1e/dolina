@@ -22,7 +22,6 @@
     }
 
     .menu {
-        padding-left: 35px;
         white-space: nowrap
     }
 
@@ -58,11 +57,15 @@
     .read_more_btn {
         margin-top: 30px;
     }
-
-    .basket {
-        padding-left: 350px;
+    .kak_rabotaet_img {
+        width: 960px;
     }
-
+    .under_akcii_p {
+        white-space: nowrap;
+    }
+    .under_headline_p {
+        white-space: nowrap;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -114,6 +117,10 @@
     .under_world_p_p {
         font-size: 14px;
     }
+    .basket {
+        padding-left: 140px;
+    }
+   
 }
 
 @media screen and (max-width: 767px) {
@@ -126,7 +133,7 @@
     }
 
     .katalog_btn {
-        margin-left: 240px;
+        margin-left: 225px;
     }
 
     .card_2 {
@@ -175,10 +182,14 @@
         display: block;
     }
 
+    h1 {
+        font-size: 80px;
+    }
+
     h2 {
-        white-space: nowrap;
         padding-top: 20px;
         padding-left: 0px;
+        font-size: 16px;
     }
 
     .world_p_p, .under_world_p_p {
@@ -190,8 +201,8 @@
     }
 
     .kachestvo_img {
-        width: 200px;
-        height: 100px;
+        width: 140px;
+        height: 70px;
     }
 
     .basket {
@@ -207,5 +218,5 @@
         margin-top: 110px;
         padding: 0;
     }
-
+   
 }

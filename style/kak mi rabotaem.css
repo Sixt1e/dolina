@@ -51,12 +51,12 @@ p {
     left: 20px;
     padding: 0;
     margin: 0;
-}
+  }
    
   #back-top a {
     display:block;
     text-align:center;
-}
+  }
    
   #back-top span {
     width: 65px;
@@ -65,8 +65,23 @@ p {
     margin: 0;
     padding: 0;
     background: url("/img/up_icon.svg") no-repeat center center;
-}
+  }
 
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+    .headline {
+        display: block;
+    }
+    .under_headline_p {
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    .kak_rabotaet_img {
+        width: 720px;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .container {
@@ -85,18 +100,3 @@ p {
 
 }
 
-@media screen and (max-width: 991px) {
-    .container {
-        width: 720px;
-    }
-    .headline {
-        display: block;
-    }
-    .under_headline_p {
-        padding-left: 0px;
-        padding-top: 30px;
-    }
-    .kak_rabotaet_img {
-        width: 720px;
-    }
-}

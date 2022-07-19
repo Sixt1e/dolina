@@ -27,6 +27,22 @@
     .under_svyaz_p {
         padding-top: 30px;
         padding-left: 0px;
+    }
+    .basket {
+        margin-left: 10px;
+    }
+
 }
 
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+   
+    .order_btn {
+        float: right;
+    }
+    .basket {
+        margin-left: 0px;
+    }
 }
