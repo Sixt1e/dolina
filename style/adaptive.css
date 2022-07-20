@@ -130,10 +130,16 @@
 
     .phone_header {
         padding-left: 40px;
+        padding-top: 40px;
+        font-size: 24px;
     }
 
     .katalog_btn {
         margin-left: 225px;
+    }
+
+    .phone_header:hover {
+        font-size: 24px;
     }
 
     .card_2 {
@@ -218,5 +224,114 @@
         margin-top: 110px;
         padding: 0;
     }
-   
+
+    .menu-burger_header {
+        position: relative;
+        width: 40px;
+        height: 35px;
+        display: block;
+    }
+
+    .menu-burger_header span, .menu-burger_header:after, .menu-burger_header:before {
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        background: #515758;
+        margin: 0 auto;
+    }
+
+    .menu-burger_header span {
+        top: 20px;
+    }
+
+    .menu-burger_header:after, .menu-burger_header:before {
+        content: '';
+    }
+    .menu-burger_header:after {
+        bottom: 0px;
+    }
+    .menu-burger_header:before {
+        top: 5px;
+    }
+    
+    .nav_nav {
+        display: block;
+        position: absolute;
+        padding-top: 50px;
+        top: 105px;
+        left: 0;
+        background: #ffffff;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        transition: all 0.4s ease;
+    }
+
+    .nav {
+        display: block;
+    }
+
+
+    .logotype {
+        margin-left: 30px;
+    }
+
+    .order_btn {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .menu {
+       display: block;
+    }
+
+    .menu li {
+        margin: 40px 0px 40px 33px;
+    }
+
+    .menu li a {
+        font-size: 24px;
+    }
+
+    .menu li a:hover {
+        font-size: 32px;
+    }
+
+    .menu li.active a {
+        font-size: 32px;
+    }
+
+    .nav_nav.open-menu {
+        left: 0;
+    }
+
+    .order_btn {
+        font-size: 24px;
+    }
+
+    .logotype {
+        width: 140px;
+        height: 70px;
+    }
+    
+    .menu-burger_header.open-menu span {
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    .menu-burger_header.open-menu:before {
+        transform: rotate(38deg);
+        top: 16px;
+        transition: 0.4s;
+    }
+
+    .menu-burger_header.open-menu:after {
+        transform: rotate(-38deg);
+        bottom: 16px;
+        transition: 0.4s;
+    }
+
+    .fixed-page {
+        overflow: hidden;
+    }
 }

@@ -470,3 +470,12 @@ footer {
     background: url("/img/up_icon.svg") no-repeat center center;
   }
 
+  .container {
+    animation: 1s show ease;
+  }
+
+  @keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+

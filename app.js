@@ -1,3 +1,5 @@
+// Menu_active
+
 $(document).ready(function() {
 	
 	$("body").css("display", "none");
@@ -15,6 +17,9 @@ $(document).ready(function() {
 	}
 	
 });
+
+
+// Upper_button
 
 $(document).ready(function(){
     $(function (){   
@@ -35,4 +40,15 @@ $(document).ready(function(){
       return false;
     });
   });  
+});
+
+
+// Burger_menu
+
+$(document).ready(function() {
+  $('.menu-burger_header').click(function() {
+    $('.menu-burger_header').toggleClass('open-menu');
+    $('.nav_nav').toggleClass('open-menu');
+    $('body').toggleClass('fixed-page');
+  });
 });
